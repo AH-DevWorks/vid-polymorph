@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode devcontainer / remote files
+.devcontainer/.env
+.vscode/
+*.code-workspace
+
+# Output / logs / cache
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+*.DS_Store
+
+# Video input/output
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Docker / container files
+*.pid
+*.sock
+*.tar
+*.img
+*.container
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Icon?
+.DS_Store
+Desktop.ini
+
+# Custom temporary folders
+output/
+temp/
+checkpoints/
